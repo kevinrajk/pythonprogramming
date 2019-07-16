@@ -1,8 +1,8 @@
-ne = input()
+e = input()
 vowels = ["a","e","i","o","u"]
-if ne in vowels:
+if e in vowels:
     print("Vowel")
-elif(ne>='b' and ne<='z' and ne!='e' and ne!='i' and ne!='o' and ne!='u'):
+elif(e>='b' and e<='z' and e!='e' and e!='i' and e!='o' and e!='u'):
     print("Consonant")
 else:
     print("invalid")
