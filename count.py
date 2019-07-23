@@ -1,2 +1,3 @@
-o=str,input()
-print((len(o)+1))
+c=str(input())
+d=len(c)
+print(d)
