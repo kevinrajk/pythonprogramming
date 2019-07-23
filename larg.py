@@ -1,4 +1,4 @@
-nu1,nu2,nu3 = map(float,input().split())
+nu1,nu2,nu3 = map(int,input().split())
 
  
 if (nu1 > nu2) and (nu1 > nu3):
