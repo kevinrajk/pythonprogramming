@@ -1,6 +1,5 @@
-nu1 = float(input("Enter first number: "))
-nu2 = float(input("Enter second number: "))
-nu3 = float(input("Enter third number: "))
+nu1,nu2,nu3 = map(float,input().split())
+
  
 if (nu1 > nu2) and (nu1 > nu3):
    largest = nu1
