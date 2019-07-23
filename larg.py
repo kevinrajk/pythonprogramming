@@ -1,12 +1,12 @@
-nu1,nu2,nu3 = map(int,input().split())
+na1,na2,na3 = map(int,input().split())
 
  
-if (nu1 > nu2) and (nu1 > nu3):
-   largest = nu1
-elif (nu2 > nu1) and (nu2 > nu3):
-   largest = nu2
+if (na1 > na2) and (na1 > na3):
+   largest = na1
+elif (na2 > na1) and (na2 > na3):
+   largest = na2
 else:
-   largest = nu3
+   largest = na3
  
 print("",largest)
 
