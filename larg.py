@@ -8,4 +8,5 @@ elif (nu2 > nu1) and (nu2 > nu3):
 else:
    largest = nu3
  
-print("The largest number is",largest)
+print("",largest)
+
