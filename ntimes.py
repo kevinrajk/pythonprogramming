@@ -1,3 +1,3 @@
-Nv = int(input())
-for i in range(Nv):
-    print ("hello")
+Ni = int(input())
+for i in range(Ni):
+    print ("Hello")
